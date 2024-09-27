@@ -2,6 +2,13 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
+import menu1 from './Images/menu1.jpg'
+import menu2 from './Images/menu2.jpg'
+import menu3 from './Images/menu3.jpg'
+import menu4 from './Images/menu4.jpg'
+import pizza1 from './Images/pizza1.jpg'
+import pizza2 from './Images/pizza2.jpg'
+import pizza3 from './Images/pizza3.jpg'
 
 function App() {
   return (
@@ -48,21 +55,21 @@ function App() {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="./images/pizza1.jpg" className="d-block w-100" alt="..."/>
+      <img src={pizza1}className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src="./images/pizza2.jpg" className="d-block w-100" alt="..."/>
+      <img src={pizza2} className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src="./images/pizza3.jpg" className="d-block w-100" alt="..."/>
+      <img src={pizza3} className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
@@ -86,7 +93,7 @@ function App() {
         <h2>Our Menu</h2> 
         <div className='col-md-3 mb-2'>
         <div className="card">
-  <img src="images/menu1.jpg" className="card-img-top" alt="..."/>
+  <img src={menu1} className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Pizza 1</h5>
     <p className="text-muted">400.00 đ</p>
@@ -96,7 +103,7 @@ function App() {
         </div>
         <div className='col-md-3 mb-2'>
         <div className="card">
-  <img src="images/menu2.jpg" className="card-img-top" alt="..."/>
+  <img src={menu2} className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Pizza 2</h5>
     <p className="text-muted">450.00 đ</p>
@@ -106,7 +113,7 @@ function App() {
         </div>
         <div className='col-md-3 mb-2'>
         <div className="card">
-  <img src="images/menu3.jpg" className="card-img-top" alt="..."/>
+  <img src={menu3} className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Pizza 3</h5>
     <p className="text-muted">300.00 đ</p>
@@ -116,7 +123,7 @@ function App() {
         </div>
         <div className='col-md-3 mb-2'>
         <div className="card">
-  <img src="images/menu4.jpg" className="card-img-top" alt="..."/>
+  <img src={menu4} className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Pizza 4</h5>
     <p className="text-muted">3750.00 đ</p>
